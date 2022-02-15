@@ -1,5 +1,5 @@
-# Fclone_Tg_Bot
-⚫ This is just a Fclone only version of Telegram bot by [Smartass](https://github.com/smartass08) - [Here](https://github.com/smartass08/telegram_gcloner)
+# FcloneMove
+⚫ This is just a Fclone only version of Telegram bot by [Smartass](https://github.com/DevRush94) - [Here](https://github.com/DevRush94/telegram_gcloner)
 
 🔷 Fclone is just another Tool like Autorclone/Folderclone/Gclone to bypass 750GB limit by google (more optimised for speed)
 
@@ -14,7 +14,7 @@
 ## 📙 Installation:-
 1. Download the Zip version of this repo or clone this repo using the command below
 ```
-git clone https://github.com/roshanconnor123/Fclone_Tg_Bot
+git clone https://github.com/DevRush94/FcloneMove
 ```
 2. Unzip the Repository and Open CMD inside it (if u used git clone - Change directory to cloned repository)- and run this
 ```
@@ -38,7 +38,7 @@ gclone_para_override = Leave it Blank
 
 🔶 Running it in Heroku:-
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Nenokkadine/FClone_Tg_Bot/tree/master)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/DevRush94/FcloneMove/tree/master)
 
 1. Create one app in Heroku
 2. Push the Files to Heroku using Heroku CLI
@@ -51,9 +51,9 @@ gclone_para_override = Leave it Blank
 ## Credits:
 🧠 [wrenfairbank](https://github.com/wrenfairbank) - [Here](https://github.com/wrenfairbank/telegram_gcloner) - Original Author of the Bot
 
-🧠 [Seiko](https://github.com/thegreatestminer) - [Here](https://github.com/thegreatestminer/telegram_gcloner) - Made the English version 
+🧠 [Seiko](https://github.com/thegreatestminer) - [Here](https://github.com/thegreatestminer/telegram_gcloner) - Made the English version
 
-🧠 [Smartass](https://github.com/smartass08) - [Here](https://github.com/smartass08/telegram_gcloner) - Added docker and Heroku support
+🧠 [Smartass](https://github.com/DevRush94) - [Here](https://github.com/DevRush94/telegram_gcloner) - Added docker and Heroku support
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/roshanconnor123/Fclone_Tg_Bot/blob/master/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/DevRush94/FcloneMove/blob/master/LICENSE) file for details
