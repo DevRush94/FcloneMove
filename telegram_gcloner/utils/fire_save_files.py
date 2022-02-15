@@ -55,7 +55,8 @@ class MySaveFileThread(threading.Thread):
 
             command_line = [
                 config.PATH_TO_GCLONE,
-                'copy',
+                'move',
+                '--delete-empty-src-dirs',
                 '--drive-server-side-across-configs',
                 '-P',
                 '--stats',
@@ -176,7 +177,7 @@ class MySaveFileThread(threading.Thread):
                                 10 - progress_max_percentage_10),
                         progress_file_percentage)
 
-                    match = re.search(r'Failed to copy: failed to make directory', output)
+                    match = re.search(r'Failed to move: failed to make directory', output)
                     if match:
                         message_progress = '{}\n<code>Write permission error, please check permissions</code>'.format(message_progress)
                         temp_message = '{}{}'.format(message, message_progress)
