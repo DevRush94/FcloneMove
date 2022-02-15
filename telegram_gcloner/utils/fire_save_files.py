@@ -61,7 +61,6 @@ class MySaveFileThread(threading.Thread):
                 '-P',
                 '--stats',
                 '1s',
-                '--ignore-existing'
             ]
             if config.GCLONE_PARA_OVERRIDE:
                 command_line.extend(config.GCLONE_PARA_OVERRIDE)
